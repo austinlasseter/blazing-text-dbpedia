@@ -1,8 +1,11 @@
-# blazing-text-dbpedia
+# How to deploy a Sagemaker endpoint
 
-The final model is deployed in this [web app](http://blazing-text-dbpedia-classifier.s3-website-us-east-1.amazonaws.com/) on AWS
+## The final model is deployed in this [web app](http://blazing-text-dbpedia.s3-website.us-east-2.amazonaws.com/) on AWS
 
 Check out my [Medium post](https://medium.com/@austinlasseter/deploy-an-nlp-classification-model-with-amazon-sagemaker-and-lambda-cd5ea6339781) explaining how I built this model.
+
+
+
 
 All of the code in this repository is forked from two previous github repositories:
 * [Architecting For Machine Learning using SageMaker](https://github.com/aws-samples/amazon-sagemaker-architecting-for-ml) by Emily Webber
