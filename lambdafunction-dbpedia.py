@@ -24,7 +24,7 @@ def lambda_handler(event, context):
     runtime = boto3.Session().client('sagemaker-runtime')
 
     # Now we use the SageMaker runtime to invoke our endpoint, sending the text we were given
-    response = runtime.invoke_endpoint(EndpointName = 'blazingtext-2020-08-08-09-19-31-404',# The name of the endpoint we created
+    response = runtime.invoke_endpoint(EndpointName = 'blazingtext-2022-07-31-17-03-50-814',# The name of the endpoint we created
                                        ContentType = 'application/json',                 # The data format that is expected by BlazingText
                                        Body = json.dumps(payload))
 
